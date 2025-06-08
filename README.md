@@ -34,16 +34,6 @@ Semantic Book Recommender is an interactive AI-powered web application that help
 6. **Display:**  
    The top recommendations are shown in a gallery with cover images and truncated descriptions[1].
 
----
-
-## 📦 File Structure
-
-├── books_with_emotion.csv # Book metadata with emotion scores
-├── tagged_description.txt # Book descriptions, one per line
-├── gradio-dash.py # Main app script
-├── requirements.txt # Python dependencies
-├── chroma_db/ # Chroma vector database (auto-generated)
-└── README.md # This file
 
 
 
@@ -67,7 +57,6 @@ source .venv/bin/activate
 3. **Install dependencies:**
 pip install -r requirements.txt
 
-text
 
 ---
 
